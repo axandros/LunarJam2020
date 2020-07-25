@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 594083d39e34aff4197f6243dfccac12, type: 3}
+  m_Name: BoarThicket
+  m_EditorClassIdentifier: 
+  _name: Boar Thicket
+  _cardType: 0
+  _purchasePrice: 4
+  _extraDraw: 0
+  _income: 0
+  _lifespan: 30
+  _triggersPerLife: 6
+  _description: '+1 Food every 5 seconds for 30 second.
+
+    +2 Food during the Full moon'
+  _flavor: 
+  _cardArt: {fileID: 21300000, guid: c8f70e821c3a06248ab636fb066a60a8, type: 3}
+  Events:
+  - {fileID: 11400000, guid: 6a9db5d86532040439ddab13a96e6e89, type: 2}
+  FullMoonEvents:
+  - {fileID: 11400000, guid: 7f48da18782783d45824d77f36aa925c, type: 2}

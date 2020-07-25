@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 594083d39e34aff4197f6243dfccac12, type: 3}
+  m_Name: WereBoar
+  m_EditorClassIdentifier: 
+  _name: WereBoar
+  _cardType: 1
+  _purchasePrice: 3
+  _extraDraw: 0
+  _income: 0
+  _lifespan: 0
+  _triggersPerLife: 1
+  _description: '+2 Food
+
+    +3 Food during the Full Moon'
+  _flavor: 
+  _cardArt: {fileID: 21300000, guid: c247222d15494444cbd05e1e6a2b0b5f, type: 3}
+  Events:
+  - {fileID: 11400000, guid: 7f48da18782783d45824d77f36aa925c, type: 2}
+  FullMoonEvents:
+  - {fileID: 11400000, guid: 5c0299e2b0aaa6b4a9a5d6575a000e4c, type: 2}
